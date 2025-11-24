@@ -160,7 +160,6 @@ h1 {
     font-style: italic;
 }
 
-/* Responsive Design */
 @media (max-width: 480px) {
     .container {
         margin: 10px;

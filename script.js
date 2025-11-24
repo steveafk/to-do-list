@@ -73,7 +73,6 @@ class TodoApp {
     setFilter(filter) {
         this.currentFilter = filter;
         
-        // Update active filter button
         document.querySelectorAll('.filter-btn').forEach(btn => {
             btn.classList.remove('active');
         });
@@ -137,5 +136,4 @@ class TodoApp {
     }
 }
 
-// Initialize the app when the page loads
 const todoApp = new TodoApp();
